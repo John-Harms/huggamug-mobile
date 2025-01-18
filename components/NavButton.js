@@ -15,7 +15,15 @@ export default NavButton;
 
 const styles = StyleSheet.create({
   buttonContainer: {
-    borderColor: "red",
+    flex: 1,
+    alignItems: 'center',
+    borderColor: "grey",
     borderWidth: 3,
+    padding: "3%",
+    marginHorizontal: "4%",
+    backgroundColor: 'white',
+    borderRadius: 10,
+    width: "2%",
+    marginBottom: "4%"
   },
 });

@@ -1,18 +1,15 @@
-import { View, Text, StyleSheet } from "react-native";
+import { Text, StyleSheet } from "react-native";
+
+import ScreenContainer from "../components/ScreenContainer";
 
 function Drinks() {
-    return(
-        <View style={styles.mainContainer}>
-            <Text>DRINK SCREEN!!!!!!</Text>
-          </View>
-    );
+  return (
+    <ScreenContainer>
+      <Text> Drink SCREEN!!</Text>
+    </ScreenContainer>
+  );
 }
 
 export default Drinks;
 
-const styles = StyleSheet.create({
-    mainContainer: {
-        borderColor: 'Black',
-        borderWidth: 4
-    }
-})
+const styles = StyleSheet.create({});

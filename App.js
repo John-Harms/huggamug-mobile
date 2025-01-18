@@ -6,7 +6,7 @@ import NavButton from "./components/NavButton";
 import HomeScreen from "./screens/HomeScreen";
 import Drinks from "./screens/Drinks";
 import Food from "./screens/Food";
-import Colors from "./constants/colors/colors";
+import colors from "./constants/Colors";
 
 export default function App() {
   const [chosenScreen, setChosenScreen] = useState("home");
@@ -31,21 +31,21 @@ export default function App() {
 
   return (
     <LinearGradient
-      colors={[Colors.primary, Colors.secondary]}
+      colors={[colors.primary, colors.secondary]}
       style={styles.container}
     >
       <View style={styles.buttonContainer}>
         <NavButton buttonFunction={buttonFunction} choose={"home"}>
           {" "}
-          Button 1!{" "}
-        </NavButton>
-        <NavButton buttonFunction={buttonFunction} choose={"drinks"}>
-          {" "}
-          Button 2!{" "}
+          Home {" "}
         </NavButton>
         <NavButton buttonFunction={buttonFunction} choose={"food"}>
           {" "}
-          Button 3!{" "}
+          Food{" "}
+        </NavButton>
+        <NavButton buttonFunction={buttonFunction} choose={"drinks"}>
+          {" "}
+          Drinks{" "}
         </NavButton>
       </View>
       {renderScreen()}
@@ -65,5 +65,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     justifyContent: "center",
     marginTop: 40,
+    opacity: 1,
+    backgroundColor:"rgba(255, 131, 234, 0)",
+    paddingHorizontal: "4%"
   },
 });

@@ -1,18 +1,17 @@
 import { View, Text, StyleSheet } from "react-native";
 
+import ScreenContainer from "../components/ScreenContainer";
+
 function HomeScreen() {
-    return(
-        <View style={styles.mainContainer}>
-            <Text>MAIN SCREEN!!!!!!</Text>
-          </View>
-    );
+  return (
+    <ScreenContainer>
+      <Text>MAIN SCREEN!!!!!!</Text>
+    </ScreenContainer>
+  );
 }
 
 export default HomeScreen;
 
 const styles = StyleSheet.create({
-    mainContainer: {
-        borderColor: 'Black',
-        borderWidth: 4
-    }
-})
+    
+});

@@ -1,18 +1,15 @@
 import { View, Text, StyleSheet } from "react-native";
 
+import ScreenContainer from "../components/ScreenContainer";
+
 function Food() {
-    return(
-        <View style={styles.mainContainer}>
-            <Text>FOOD SCREEN!!!!!!</Text>
-          </View>
-    );
+  return (
+    <ScreenContainer>
+      <Text>FOOD SCREEN!!!!!!</Text>
+    </ScreenContainer>
+  );
 }
 
 export default Food;
 
-const styles = StyleSheet.create({
-    mainContainer: {
-        borderColor: 'Black',
-        borderWidth: 4
-    }
-})
+const styles = StyleSheet.create({});
