@@ -37,7 +37,7 @@ export default function App() {
       <View style={styles.buttonContainer}>
         <NavButton buttonFunction={buttonFunction} choose={"home"}>
           {" "}
-          Home {" "}
+          Home{" "}
         </NavButton>
         <NavButton buttonFunction={buttonFunction} choose={"food"}>
           {" "}
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: 40,
     opacity: 1,
-    backgroundColor:"rgba(255, 131, 234, 0)",
-    paddingHorizontal: "4%"
+    backgroundColor: "rgba(255, 131, 234, 0)",
+    paddingHorizontal: "4%",
   },
 });

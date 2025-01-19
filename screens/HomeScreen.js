@@ -20,8 +20,9 @@ function HomeScreen() {
             Welcome to Heidi's, home to some of the coolest people in the LC
             area. Maybe you know us for our good breakfast. Maybe you know us
             for our good coffees. MAYBE...just maybe you know us because of our
-            wonderful cooks: LAURA, EVAN, ISABELLA, KRISTIN, and HALLIE. Want a DRINK, or maybe a FOOD? Well
-            luckily, this app has BOTH!!!!!!!!!!!!!!!!
+            wonderful cooks: LAURA, EVAN, ISABELLA, KRISTIN, and HALLIE. Want a
+            DRINK, or maybe a FOOD? Well luckily, this app has
+            BOTH!!!!!!!!!!!!!!!!
           </Text>
         </View>
       ),
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
     borderColor: Colors.primary,
     borderWidth: 3,
     alignItems: "center",
-    borderRadius: 18
+    borderRadius: 18,
   },
   titleText: {
     color: "black",

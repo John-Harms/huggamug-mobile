@@ -1,5 +1,7 @@
 import { View, Image, Text, StyleSheet } from "react-native";
 
+import colors from "../constants/Colors";
+
 function FoodContainer({pictureSrc, itemName, itemPrice}) {
 
   return (
@@ -31,7 +33,7 @@ const styles = StyleSheet.create({
     borderColor: "grey",
   },
   infoContainer: {
-    backgroundColor: "rgb(213, 213, 213)",
+    backgroundColor: colors.lightGrey,
     borderBottomEndRadius: 10,
     borderBottomStartRadius: 10,
     paddingHorizontal: 20,
