@@ -1,4 +1,4 @@
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, FlatList } from "react-native";
 
 function ScreenContainer({ children }) {
   return <View style={styles.mainContainer}>{children}</View>;
@@ -16,5 +16,6 @@ const styles = StyleSheet.create({
     borderColor: "grey",
     backgroundColor: "white",
     padding: "4%",
+    alignItems: 'center'
   },
 });
